@@ -16,9 +16,17 @@ header {
 
  li {
     float:left;
+<<<<<<< HEAD
     padding-right: 5px;
+=======
+     padding-right: 5px;
+>>>>>>> 4ebbc1767b3219dbb2bef14e1c58186dc45e46e1
   }
 
   li a {
     font-color: black;
+<<<<<<< HEAD
   }
+=======
+  }
+>>>>>>> 4ebbc1767b3219dbb2bef14e1c58186dc45e46e1
