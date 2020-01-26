@@ -1,25 +1,85 @@
 body {
-    font-size: .9em;
+    font-size: .85em;
 }
 
 header {
-    background-color: lightblue
+    padding-top: 15px;
+    height: 45px;
+
+}
+
+#leftnav {
+    float:left;
+    margin-left:1%;
+
+}
+
+#rightnav {
+    float:right;
+    margin-right: -35px;
+
 }
 
  ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 60px;
     display: inline;
   }
 
  li {
     float:left;
-    padding-right: 5px;
+    margin-right: 17px;
   }
 
   li a {
-    font-color: black;
+    color: #4f4f4f;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
   }
+  li a:hover {
+    text-decoration: underline;
+  }
+button {
+  color: #FFF;
+  background-color: #4386fa;
+  border-radius:2px;
+  width: 70px;
+  margin-top: -5px;
+  border:1px solid #4386fa;
+  font-weight: bold;
+  padding:5px;
+
+}
+
+#dialer-button {
+    width: 25px;
+    height: 25px;
+    background-color: darkgrey;
+    margin-top: -5px;
+    
+}
+
+#search_field {
+  border-radius:25px;
+  border: 1px solid #dddddd;
+  width: 31%;
+  height: 2.9rem;
+  box-shadow: 1px 1px 3px rgb(216, 216, 216);
+}
+
+#main_body {
+
+}
+
+.doodle {
+  margin-bottom:8px;
+}
+
+footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+  background:#F2f2f2; 
+  padding:10px; 
+}
