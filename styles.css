@@ -1,5 +1,5 @@
 body {
-    font-size: 1em;
+    font-size: .9em;
 }
 
 header {
@@ -11,12 +11,14 @@ header {
     margin: 0;
     padding: 0;
     width: 60px;
-  }
-
- li {
     display: inline;
   }
 
+ li {
+    float:left;
+    padding-right: 5px;
+  }
+
   li a {
-    display: block;
+    font-color: black;
   }
