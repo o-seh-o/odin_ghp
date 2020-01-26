@@ -6,13 +6,17 @@ header {
     background-color: lightblue
 }
 
-ul {
+header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 60px;
   }
-  
+
+header li {
+    display: inline;
+  }
+
   li a {
     display: block;
   }
