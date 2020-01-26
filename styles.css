@@ -14,9 +14,10 @@ header {
   }
 
  li {
-    display: inline;
+    float:left;
+     padding-right: 5px;
   }
 
   li a {
-    display: block;
+    font-color: black;
   }
